@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;800;900&display=swap');
+
+:root{
+  --primary: #280332;
+  --secondary: #da48ba;
+  --whitee: #e1c1c1;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Source Sans 3', sans-serif  !important;
+}
+.btn{
+  padding: 10px 15px;
+  background-color: var(--secondary);
+  color:var(--primary);
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  border: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  line-height: 1.1;
+}
+.btn:hover{
+  background-color: #9f3c7a;
+  opacity: 1;
+  cursor: pointer;
+
+}
+.btn:disabled{
+  pointer-events: none;
+  opacity: .5;
+}
+input:focus{
+  outline: none;
+}
+
+.icon-div{
+position: absolute;
+bottom:12px;
+left: 37%;
+background-color: rgb(140, 94, 94);
+opacity: 0;
+padding: 8px 12px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border: none;
+transition: all .2s ease-in-out;
+/* display: none; */
+}
+.parent:hover .icon-div{
+  /* display: flex; */
+  transition: all .2s ease-in-out;
+  opacity: 1;
+}
+.bg-primary{
+  background-image: url(https://img.freepik.com/free-photo/pink-smoke-background_23-2149440116.jpg?size=626&ext=jpg&ga=GA1.1.844843504.1705444788&semt=ais);
+}
