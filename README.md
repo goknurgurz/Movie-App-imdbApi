@@ -17,3 +17,9 @@ My goal in creating this project was to create a clean and minimal site that get
 - TAILWIND
 
 Front End JavaScript Project using IMDB API
+
+# My project video
+
+
+https://github.com/goknurgurz/Movie-App-imdbApi/assets/142411104/e88e6193-79b0-4ddd-bb1a-7efd87266051
+
